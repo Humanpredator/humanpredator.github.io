@@ -47,8 +47,8 @@
       background: #fff;
       border-radius: 1.2rem;
       box-shadow: 0 4px 24px rgba(17,24,39,0.08);
-      padding: 2.5rem 2rem 2rem 2rem;
-      max-width: 400px;
+      padding: 2.5rem 2.5rem 2rem 2.5rem;
+      max-width: 600px;
       width: 100%;
       margin: 2rem 0;
       text-align: center;
@@ -103,6 +103,7 @@
     @media (max-width: 600px) {
       .card {
         padding: 1.5rem 0.7rem;
+        max-width: 98vw;
       }
       h1 {
         font-size: 2rem;
@@ -112,30 +113,52 @@
 </head>
 <body>
 
-  <header>
-    <h1>Welcome to RealitY</h1>
-    <p>A modern application designed for secure user authentication.</p>
-  </header>
+ <!-- Cleaned version for verification -->
+<header>
+  <h1>Welcome to RealitY</h1>
+  <p>
+    RealitY is a modern web application that provides secure, personalized access to real-time insights using Google authentication.
+    This page explains the app's purpose and how we handle your data.
+  </p>
+</header>
 
-  <main>
-    <div class="card">
-      <h2 style="margin-top:0; color:#2563eb; font-size:1.3rem;">What is RealitY?</h2>
-      <p>RealitY is a modern web application that provides real-time insights and personalized features for users. Our platform is designed to deliver secure, seamless, and insightful experiences tailored to each user.</p>
-      <h2 style="color:#2563eb; font-size:1.1rem;">Who is it for?</h2>
-      <p>RealitY is intended for users who want secure, real-time access to personalized insights and features, leveraging the convenience and security of Google authentication.</p>
-      <h2 style="color:#2563eb; font-size:1.1rem;">Why do we use Google Login?</h2>
-      <p>We use Google Sign-In to securely authenticate users and personalize your experience. We only access your basic profile information (name, email, and profile picture) to create your account and enhance your experience. Your data is handled securely and never sold or shared with third parties.</p>
-      <a href="#login" class="login-btn">Log In with Google</a>
-      <div class="links">
-        <a href="privacy.html">Privacy Policy</a> |
-        <a href="terms.html">Terms of Service</a>
-      </div>
+<main>
+  <div class="card">
+    <h2 style="margin-top:0; color:#2563eb; font-size:1.3rem;">What is RealitY?</h2>
+    <p>
+      RealitY is a secure and user-friendly platform that helps users gain access to real-time, personalized features and data insights.
+      It integrates with Google Sign-In to streamline your experience while ensuring your privacy.
+    </p>
+    
+    <h2 style="color:#2563eb; font-size:1.1rem;">Why Google Login?</h2>
+    <p>
+      We use Google Sign-In to verify your identity, so you don't need to remember another password. We only request your basic profile info (name, email, and profile image).
+      No data is sold or shared with third parties.
+    </p>
+
+    <h2 style="color:#2563eb; font-size:1.1rem;">What Data Do We Collect?</h2>
+    <p>
+      When you sign in with Google, we collect your name, email address, and profile image. This information is used solely to personalize your experience within RealitY. <b>We do not sell, share, or use your data for advertising or any third-party purposes.</b>
+    </p>
+
+    <h2 style="color:#2563eb; font-size:1.1rem;">Who Should Use RealitY?</h2>
+    <p>
+      Anyone looking for a secure, customized experience that adapts to their profile and preferences. Ideal for individuals and developers seeking real-time dashboards or personalized web tools.
+    </p>
+
+    <div class="links" style="margin-top:2.5rem; font-size:1.08rem;">
+      <a href="privacy.html" style="font-weight:600;">Privacy Policy</a> |
+      <a href="terms.html" style="font-weight:600;">Terms of Service</a>
     </div>
-  </main>
+    <div style="margin-top:1.2rem; color:#64748b; font-size:0.98rem;">
+      Contact: <a href="mailto:support@realityapp.com" style="color:#2563eb; text-decoration:none;">support@realityapp.com</a>
+    </div>
+  </div>
+</main>
 
-  <footer>
-    &copy; 2025 RealitY. All rights reserved.
-  </footer>
+<footer>
+  &copy; 2025 RealitY. All rights reserved.
+</footer>
 
 </body>
 </html>
